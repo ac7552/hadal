@@ -1,0 +1,226 @@
+{
+ "what": "Sinking speed from rest for a body with quadratic drag under a constant net weight",
+ "source": "Generated from the closed form v(t) = vt tanh(t vt k / M), vt = sqrt(W / k), k = rho Cd A / 2, by the script in this file's 'made_by'",
+ "made_by": "python: M = 14900 kg (11,700 hull + 3,200 added mass), Cd = 0.9, A = 4.2 m^2, rho = 1025 kg/m^3, g = 9.81 m/s^2, W = trim g",
+ "body": {
+  "mass_kg": 11700,
+  "added_mass_kg": 3200,
+  "drag_coeff": 0.9,
+  "drag_area_m2": 4.2,
+  "water_density": 1025.0,
+  "g": 9.81
+ },
+ "tolerance_fraction_of_terminal": 0.002,
+ "rows": [
+  {
+   "trim_kg": 25,
+   "t_s": 1,
+   "speed_m_s": 0.016448,
+   "terminal_m_s": 0.355805
+  },
+  {
+   "trim_kg": 25,
+   "t_s": 5,
+   "speed_m_s": 0.080862,
+   "terminal_m_s": 0.355805
+  },
+  {
+   "trim_kg": 25,
+   "t_s": 10,
+   "speed_m_s": 0.153781,
+   "terminal_m_s": 0.355805
+  },
+  {
+   "trim_kg": 25,
+   "t_s": 20,
+   "speed_m_s": 0.259152,
+   "terminal_m_s": 0.355805
+  },
+  {
+   "trim_kg": 25,
+   "t_s": 40,
+   "speed_m_s": 0.33865,
+   "terminal_m_s": 0.355805
+  },
+  {
+   "trim_kg": 25,
+   "t_s": 80,
+   "speed_m_s": 0.355371,
+   "terminal_m_s": 0.355805
+  },
+  {
+   "trim_kg": 25,
+   "t_s": 160,
+   "speed_m_s": 0.355804,
+   "terminal_m_s": 0.355805
+  },
+  {
+   "trim_kg": 60,
+   "t_s": 1,
+   "speed_m_s": 0.039436,
+   "terminal_m_s": 0.55121
+  },
+  {
+   "trim_kg": 60,
+   "t_s": 5,
+   "speed_m_s": 0.189476,
+   "terminal_m_s": 0.55121
+  },
+  {
+   "trim_kg": 60,
+   "t_s": 10,
+   "speed_m_s": 0.338906,
+   "terminal_m_s": 0.55121
+  },
+  {
+   "trim_kg": 60,
+   "t_s": 20,
+   "speed_m_s": 0.491871,
+   "terminal_m_s": 0.55121
+  },
+  {
+   "trim_kg": 60,
+   "t_s": 40,
+   "speed_m_s": 0.547654,
+   "terminal_m_s": 0.55121
+  },
+  {
+   "trim_kg": 60,
+   "t_s": 80,
+   "speed_m_s": 0.551199,
+   "terminal_m_s": 0.55121
+  },
+  {
+   "trim_kg": 60,
+   "t_s": 160,
+   "speed_m_s": 0.55121,
+   "terminal_m_s": 0.55121
+  },
+  {
+   "trim_kg": 130,
+   "t_s": 1,
+   "speed_m_s": 0.085275,
+   "terminal_m_s": 0.81136
+  },
+  {
+   "trim_kg": 130,
+   "t_s": 5,
+   "speed_m_s": 0.392236,
+   "terminal_m_s": 0.81136
+  },
+  {
+   "trim_kg": 130,
+   "t_s": 10,
+   "speed_m_s": 0.635867,
+   "terminal_m_s": 0.81136
+  },
+  {
+   "trim_kg": 130,
+   "t_s": 20,
+   "speed_m_s": 0.787844,
+   "terminal_m_s": 0.81136
+  },
+  {
+   "trim_kg": 130,
+   "t_s": 40,
+   "speed_m_s": 0.811009,
+   "terminal_m_s": 0.81136
+  },
+  {
+   "trim_kg": 130,
+   "t_s": 80,
+   "speed_m_s": 0.811359,
+   "terminal_m_s": 0.81136
+  },
+  {
+   "trim_kg": 130,
+   "t_s": 160,
+   "speed_m_s": 0.81136,
+   "terminal_m_s": 0.81136
+  },
+  {
+   "trim_kg": 250,
+   "t_s": 1,
+   "speed_m_s": 0.163433,
+   "terminal_m_s": 1.125153
+  },
+  {
+   "trim_kg": 250,
+   "t_s": 5,
+   "speed_m_s": 0.702037,
+   "terminal_m_s": 1.125153
+  },
+  {
+   "trim_kg": 250,
+   "t_s": 10,
+   "speed_m_s": 1.010626,
+   "terminal_m_s": 1.125153
+  },
+  {
+   "trim_kg": 250,
+   "t_s": 20,
+   "speed_m_s": 1.118701,
+   "terminal_m_s": 1.125153
+  },
+  {
+   "trim_kg": 250,
+   "t_s": 40,
+   "speed_m_s": 1.125135,
+   "terminal_m_s": 1.125153
+  },
+  {
+   "trim_kg": 250,
+   "t_s": 80,
+   "speed_m_s": 1.125153,
+   "terminal_m_s": 1.125153
+  },
+  {
+   "trim_kg": 250,
+   "t_s": 160,
+   "speed_m_s": 1.125153,
+   "terminal_m_s": 1.125153
+  },
+  {
+   "trim_kg": 500,
+   "t_s": 1,
+   "speed_m_s": 0.324577,
+   "terminal_m_s": 1.591207
+  },
+  {
+   "trim_kg": 500,
+   "t_s": 5,
+   "speed_m_s": 1.234258,
+   "terminal_m_s": 1.591207
+  },
+  {
+   "trim_kg": 500,
+   "t_s": 10,
+   "speed_m_s": 1.541214,
+   "terminal_m_s": 1.591207
+  },
+  {
+   "trim_kg": 500,
+   "t_s": 20,
+   "speed_m_s": 1.590397,
+   "terminal_m_s": 1.591207
+  },
+  {
+   "trim_kg": 500,
+   "t_s": 40,
+   "speed_m_s": 1.591207,
+   "terminal_m_s": 1.591207
+  },
+  {
+   "trim_kg": 500,
+   "t_s": 80,
+   "speed_m_s": 1.591207,
+   "terminal_m_s": 1.591207
+  },
+  {
+   "trim_kg": 500,
+   "t_s": 160,
+   "speed_m_s": 1.591207,
+   "terminal_m_s": 1.591207
+  }
+ ]
+}

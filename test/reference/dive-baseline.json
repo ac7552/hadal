@@ -1,0 +1,42 @@
+{
+ "what": "Time to reach each depth and speed there, sinking from the surface with the trim tank set to dive",
+ "source": "Recorded from this engine by tools/dive_baseline.mjs --record",
+ "tolerance_fraction": 0.01,
+ "marks": [
+  {
+   "depth_m": 200,
+   "time_s": 264,
+   "speed_m_s": 0.810771
+  },
+  {
+   "depth_m": 1000,
+   "time_s": 1252,
+   "speed_m_s": 0.808465
+  },
+  {
+   "depth_m": 4000,
+   "time_s": 4975.5,
+   "speed_m_s": 0.803044
+  },
+  {
+   "depth_m": 6000,
+   "time_s": 7471.5,
+   "speed_m_s": 0.799734
+  },
+  {
+   "depth_m": 8000,
+   "time_s": 9977,
+   "speed_m_s": 0.796588
+  },
+  {
+   "depth_m": 10000,
+   "time_s": 12492.5,
+   "speed_m_s": 0.793589
+  },
+  {
+   "depth_m": 10935,
+   "time_s": 13672,
+   "speed_m_s": 0.792234
+  }
+ ]
+}

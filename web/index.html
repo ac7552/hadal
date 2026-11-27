@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hadal</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="importmap">
+    { "imports": { "three": "./vendor/three.module.min.js" } }
+  </script>
+</head>
+<body>
+  <canvas id="view"></canvas>
+
+  <aside id="panel">
+    <h1>Hadal</h1>
+    <p class="lede">Take a submersible from the surface to the bottom of the Mariana Trench, 10,935 m down. The water gets denser, colder and darker, the pressure climbs past a thousand atmospheres, and the ballast tank decides whether you sink or rise.</p>
+
+    <h2>Ballast</h2>
+    <div id="ballast" class="seg">
+      <button data-t="dive">Dive</button><button data-t="hold">Hold</button><button data-t="rise">Rise</button>
+    </div>
+    <div class="row">
+      <button id="lamps" class="toggle on">Lamps</button>
+      <button id="wall" class="toggle on">Stay by the wall</button>
+      <button id="pilot" class="toggle">Pilot's view</button>
+    </div>
+    <p class="hint">Drag to look round. W A S D to steer.</p>
+
+    <h2>Skip down to</h2>
+    <div id="skips" class="list"></div>
+  </aside>
+
+  <section id="gauges">
+    <div class="big"><span>Depth</span><b id="depth">-</b></div>
+    <div><span>Pressure</span><b id="pressure">-</b></div>
+    <div><span>Water</span><b id="temp">-</b></div>
+    <div><span>Sunlight left</span><b id="light">-</b></div>
+    <div><span>Moving</span><b id="rate">-</b></div>
+    <div><span>Dive time</span><b id="clock">-</b></div>
+    <div class="zone"><b id="zone">-</b><span id="note"></span></div>
+    <div id="warp" class="seg small">
+      <button data-w="1" class="on">×1</button><button data-w="10">×10</button><button data-w="100">×100</button>
+    </div>
+  </section>
+
+  <div id="loading">Filling the ocean</div>
+  <script type="module" src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+{
+ "what": "Depth from pressure in a standard ocean",
+ "source": "Check values published with each formula: Fofonoff and Millard (UNESCO 44, 1983) and Saunders (J. Phys. Oceanogr. 11, 1981)",
+ "units": {
+  "p": "decibars",
+  "lat": "degrees",
+  "depth": "m"
+ },
+ "rows": [
+  {
+   "formula": "unesco",
+   "p": 10000,
+   "lat": 30,
+   "depth": 9712.653,
+   "tolerance": 0.001
+  },
+  {
+   "formula": "saunders",
+   "p": 7500,
+   "lat": 30,
+   "depth": 7321.444,
+   "tolerance": 0.001
+  }
+ ],
+ "agreement": {
+  "what": "Saunders' formula against the UNESCO one, every 500 dbar from 500 to 11,000 dbar at the trench's latitude",
+  "tolerance_fraction": 0.001
+ }
+}

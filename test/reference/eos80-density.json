@@ -1,0 +1,67 @@
+{
+ "what": "Seawater density by the UNESCO 1980 equation of state (EOS-80)",
+ "source": "Check values published with the equation: UNESCO Technical Papers in Marine Science 36 (1981) and 44 (Fofonoff and Millard 1983)",
+ "units": {
+  "S": "practical salinity",
+  "T": "degrees C",
+  "p": "decibars",
+  "density": "kg/m^3"
+ },
+ "tolerance": 0.0001,
+ "rows": [
+  {
+   "S": 0,
+   "T": 5,
+   "p": 0,
+   "density": 999.96675
+  },
+  {
+   "S": 0,
+   "T": 5,
+   "p": 10000,
+   "density": 1044.12802
+  },
+  {
+   "S": 0,
+   "T": 25,
+   "p": 0,
+   "density": 997.04796
+  },
+  {
+   "S": 0,
+   "T": 25,
+   "p": 10000,
+   "density": 1037.90204
+  },
+  {
+   "S": 35,
+   "T": 5,
+   "p": 0,
+   "density": 1027.67547
+  },
+  {
+   "S": 35,
+   "T": 5,
+   "p": 10000,
+   "density": 1069.48914
+  },
+  {
+   "S": 35,
+   "T": 25,
+   "p": 0,
+   "density": 1023.34306
+  },
+  {
+   "S": 35,
+   "T": 25,
+   "p": 10000,
+   "density": 1062.53817
+  },
+  {
+   "S": 40,
+   "T": 40,
+   "p": 10000,
+   "density": 1059.82037
+  }
+ ]
+}
